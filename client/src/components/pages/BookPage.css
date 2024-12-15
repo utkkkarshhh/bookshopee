@@ -1,0 +1,35 @@
+.bookPage {
+  font-family: "Noto Sans JP", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: 20px auto 30px auto;
+}
+
+.bookDetails {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.reviewPageMovieName {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.bookPageTitle {
+  font-size: 33px;
+  font-weight: bold;
+  color: #7268da;
+}
+
+.bookPageImage {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.noReviewAvailable {
+  font-weight: bold;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  opacity: 0.6;
+  font-size: 30px;
+}

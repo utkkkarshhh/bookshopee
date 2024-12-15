@@ -1,0 +1,56 @@
+.sliderCard {
+  min-width: 300px;
+  transition: 300ms ease-in-out;
+  margin: auto 5px;
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sliderCard:hover .sliderCardBookImage {
+  opacity: 0.9;
+}
+
+.cardContent {
+  text-align: center;
+}
+
+.sliderCardBookImage {
+  max-width: 200px;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  transition: opacity 300ms ease-in-out;
+}
+
+.sliderCardBookTitle {
+  font-size: 20px;
+  margin: 5px auto 5px;
+}
+
+.sliderCardBookAuthor {
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0px;
+}
+
+.sliderCardButton {
+  color: white;
+  background-color: #7268da;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 15px;
+  font-size: 13px;
+  font-weight: bold;
+  transition: 300ms ease-in-out;
+}
+
+.sliderCardButton:hover {
+  color: rgb(241, 240, 240);
+  background-color: #5b52ba;
+}
+
+

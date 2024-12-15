@@ -1,0 +1,64 @@
+.searchBar {
+  font-family: "Noto Sans JP", sans-serif;
+  position: relative;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  padding: 10px 20px 10px 10px;
+  margin: auto auto;
+  align-items: center;
+  border-radius: 8px;
+  width: 35%;
+  border: 2px solid grey;
+  transition: 300ms;
+}
+
+.searchBar:focus-within {
+  border-color: #7268da90;
+}
+
+.searchResultsContainer:focus-within {
+  border-color: #7268da90;
+}
+
+.searchIcon {
+  color: grey;
+}
+
+.searchBarText {
+  width: 100%;
+  margin-left: 10px;
+}
+
+.searchBarInput {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+}
+
+.searchResultsContainer {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 99;
+}
+
+.noResultsAvailable p {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .searchBar {
+    width: 80%;
+    margin: auto auto;
+  }
+}

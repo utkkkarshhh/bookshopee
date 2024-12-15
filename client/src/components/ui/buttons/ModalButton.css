@@ -1,0 +1,14 @@
+.ModalButton {
+  color: white;
+  background-color: #7268da;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 300ms ease-in-out;
+}
+
+.ModalButton:hover {
+  color: rgb(241, 240, 240);
+  background-color: #635ac7;
+}

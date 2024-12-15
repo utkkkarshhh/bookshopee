@@ -1,0 +1,21 @@
+.landingPageHeader {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px 20px;
+  margin: auto auto !important;
+}
+
+.movieCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.searchFailText {
+  font-size: 20px;
+  opacity: 0.6;
+  font-weight: bold;
+  font-family: "Noto Sans JP", sans-serif;
+}

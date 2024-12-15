@@ -1,0 +1,31 @@
+.searchResult {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.searchResult:hover {
+  background-color: #f5f5f5;
+}
+
+.searchResult:last-child {
+  border-bottom: none;
+}
+
+.searchResultAuthor {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.searchResultImage img {
+  width: 50px;
+}
+
+.searchResultCoverUnavailable {
+  font-size: 10px;
+  font-weight: 300;
+}
